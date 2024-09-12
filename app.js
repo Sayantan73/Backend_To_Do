@@ -16,7 +16,7 @@ app.use("/api/v1", todoRoutes)
 
 
 app.listen(PORT, () => {
-    console.log(`app listening on port number ${PORT}`);
+    console.log(`app listening on port number: ${PORT}`);
 })
  
 const dbConnect = require("./config/database");
